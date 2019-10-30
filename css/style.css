@@ -84,8 +84,21 @@ body {
 	text-decoration: none;
 }
 
+#main-footer{
+		background: black;
+	color: #fff;
+}
+
 
 #faq .card-body, 
 #faq .card-header{
 	background: #333
+}
+
+.card{
+ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover{
+	transform: translateY(-3px);
 }
